@@ -1,0 +1,228 @@
+main {
+  box-sizing: border-box;
+  padding: 15px 25px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav-list {
+  display: grid;
+    grid-template-areas: 
+        "first first"
+        "second second"
+        "third fourth"
+        ;
+    gap: 20px; 
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.nav-item-grid-1 {
+  grid-area: first;
+}
+
+.nav-item-grid-2 {
+  grid-area: second;
+}
+
+.nav-item-grid-3 {
+  grid-area: third;
+}
+
+.nav-item-grid-4 {
+  grid-area: fourth;
+}
+
+.nav-item {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 27px;
+  background-color: rgb(249, 242, 248);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.h1-holder {
+  margin: 10px 10px 20px;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-inform-holder {
+  padding: 10px;
+  text-align: center;
+}
+
+.contacts-list{
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.contact-header {
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.text-holder {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.h2-holder {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-align: start;
+}
+
+.h2-holder-home {
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.h3-holder {
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.h4-holder {
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.h5-holder {
+  padding-bottom: 5px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 19px;
+  text-decoration: underline;
+}
+
+.responsibilities-list,
+  .add-edu-list,
+  .hard-skills-list,
+  .soft-skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .responsibilities-item,
+  .add-edu-item,
+  .hard-skills-item,
+  .soft-skills-item {
+    font-size: 16px;
+  }
+  
+  .responsibilities-item::before,
+  .add-edu-item::before,
+  .hard-skills-item::before,
+  .soft-skills-item::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(249, 242, 248);
+    border: 1px solid black;
+    border-radius: 50%; 
+    margin-right: 7px;
+  }
+  
+  .responsibilities-item:last-child{
+    padding-bottom: 20px;
+  }
+  
+  .edu-table {
+    font-size: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .period {
+    text-align: start;
+    font-weight: 500;
+  }
+
+
+
+
+
+
