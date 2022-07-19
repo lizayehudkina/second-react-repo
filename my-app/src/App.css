@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap');
+
+
 main {
   box-sizing: border-box;
   padding: 15px 25px;
+  font-family: 'Tiro Kannada', serif;
 }
 
 .nav {
